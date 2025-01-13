@@ -1,11 +1,11 @@
-# Import necessary libraries
+# Import the necessary libraries needed
 from sklearn.linear_model import LinearRegression
 import joblib
 import numpy as np
 
 # Generating example training data (i could not find real data )
 X = np.array([[10, 20], [30, 40], [50, 60], [70, 80]])  # Features(CPU, memory)
-y = np.array([1, 0, 1, 0])  # Labels (readiness)
+y = np.array([1, 0, 1, 0])  # Labels 
 
 # Training a linear regression model
 model = LinearRegression()
